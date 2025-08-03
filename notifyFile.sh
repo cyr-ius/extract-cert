@@ -1,5 +1,8 @@
 #!/usr/bin/env sh
 
+# -----   WARNING  ------
+# inotify-tools package required
+# -----------------------
 WATCH_DIR="/var/extractcert/acme"
 TARGET="acme.json"
 /usr/bin/extractCert.sh
